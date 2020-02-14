@@ -1,0 +1,21 @@
+<section class="message">
+  <article class="input">
+    <h1>Notification Sender</h1>
+    <mat-form-field>
+      <mat-placeholder>
+        <mat-icon>
+          people
+        </mat-icon>
+        Message
+      </mat-placeholder>
+      <input type="text"  matInput [(ngModel)]="message" />
+    </mat-form-field>
+    <app-notifier (send)="sendMessage()" ></app-notifier>
+
+  </article>
+  <article class="output">
+   <h4>Notifications</h4>
+   <app-notification [data]="messages"></app-notification>
+  </article>
+</section>
+

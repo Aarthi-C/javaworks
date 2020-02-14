@@ -1,0 +1,34 @@
+<div *ngIf="productsArr?.length>0" class="gallery">
+
+  <!--
+    <table>
+    <tr *ngFor="let product of products">
+      <td><img src="{{product.thumbnailUrl}}"/></td>
+    </tr>
+  </table>
+  -->
+  <h2>Gallery</h2>
+  <mat-list  *ngFor="let product of productsArr">
+    <mat-list-item >
+
+      <button mat-icon-button (click)="getProductDetails(product)">
+
+        <img src="{{product.thumbnailUrl}}"/>
+
+      </button>
+    </mat-list-item>
+
+    <mat-list-item >
+      <h6>{{product.id}}</h6>
+    </mat-list-item>
+
+    <mat-list-item >
+      <h6>{{product.title}}</h6>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+  </mat-list>
+</div>
+
+<div class="cart">
+  <app-cart></app-cart>
+</div>

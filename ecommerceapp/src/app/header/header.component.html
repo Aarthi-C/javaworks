@@ -1,0 +1,21 @@
+<section class="header">
+<figure class="logo">
+  <!--interpolation -->
+  <img src="{{logoPath}}" alt=""/>
+</figure>
+  <article class="menubar" *ngIf="data?.length>0">
+<!--<p-breadcrumb [model]="data"></p-breadcrumb>-->
+    <p-menubar [model]="data"></p-menubar>
+   <!--
+    <ul>
+      <li><a [routerLink]="[{ outlets: { about: ['About'] } }]"
+             routerLinkActive="active">About</a></li>
+
+      <li><a [routerLink]="[{ outlets: { product: ['Product'] } }]"
+             routerLinkActive="active">Product</a></li>
+      <li><a [routerLink]="[{ outlets: { home: ['Home'] } }]"
+             routerLinkActive="active">Home</a></li>
+    </ul>
+-->
+  </article>
+</section>

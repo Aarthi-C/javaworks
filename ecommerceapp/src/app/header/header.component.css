@@ -1,0 +1,33 @@
+.header
+{
+  width:80%;
+}
+
+.logo{
+  width:20%;
+  float:left;
+
+}
+.menubar
+{
+  width:60%;
+  margin-left: 40%;
+  padding:5%;
+}
+
+
+.ui-menubar
+{
+  height: 50px;
+  border: 2px solid darkblue;
+}
+
+
+
+.ui-menuitem-text
+{
+  color: darkblue;
+  font-size: large;
+  font-weight: bold;
+}
+

@@ -1,0 +1,39 @@
+<div class="search">
+<mat-form-field>
+  <mat-placeholder>
+    <mat-icon>
+      search
+    </mat-icon>
+    Search
+  </mat-placeholder>
+  <input matInput [(ngModel)]="searchText" name="searchText"/>
+</mat-form-field>
+<table>
+  <tr *ngFor="let country of countries|countryFilter:searchText">
+    <td>{{country.name}}</td>
+  </tr>
+</table>
+</div>
+<div class="autosearch">
+  <mat-form-field class="example-full-width">
+    <input matInput
+           placeholder="Country"
+           aria-label="Country"
+           [matAutocomplete]="auto"
+           [formControl]="countryCtrl" >
+    <mat-autocomplete #auto="matAutocomplete" >
+      <mat-option *ngFor="let country of filteredCountries|async" [value]="country.name" >
+        <img class="example-option-img" aria-hidden [src]="country.flag" height="25">
+        <span>{{country.name}}</span> |
+        <small>Population: {{country.population}}</small>
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+  <br>
+
+  <mat-slide-toggle
+    [checked]="countryCtrl.disabled"
+    (change)="countryCtrl.disabled ? countryCtrl.enable() : countryCtrl.disable()">
+    Disable Input?
+  </mat-slide-toggle>
+</div>

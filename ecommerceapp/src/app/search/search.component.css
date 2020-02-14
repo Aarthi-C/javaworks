@@ -1,0 +1,20 @@
+.form{
+    width: 30%;
+    margin-left: 40%;
+}
+.mat-form-field{
+    width: 100%;
+    font-size: large;
+    color: darkblue;
+}
+.form-legend{
+    text-align: center;
+    color: darkblue;
+    font-size: x-large;
+}
+.form button{
+    margin-left:40%;
+}
+.error{
+    color: darkred;
+}

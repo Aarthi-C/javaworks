@@ -1,0 +1,157 @@
+https://github.com/eswaribala/rps_angular_chn_2020.git
+
+https://www.primefaces.org/primeng/#/setup
+
+https://jsonplaceholder.typicode.com/photos
+https://angular.io/tutorial/toh-pt5
+
+
+https://material.angular.io/guide/theming
+cli@8
+
+https://pivotal.io/platform
+
+https://daimalerblog2019-cf.cfapps.io/browser/index.html#/
+
+https://daimalerblog2019-cf.cfapps.io/findallboausers -> get
+
+https://daimalerblog2019-cf.cfapps.io/findboauserbyname/admin -> registration
+
+https://daimalerblog2019-cf.cfapps.io/addboauser -> post method
+
+https://www.concretepage.com/angular-2/angular-2-4-route-guards-canactivate-and-canactivatechild-example
+
+https://stackoverflow.com/questions/50707162/custom-search-filter-for-json-data-angular-4
+
+
+
+ng new applicationname
+
+Struture
+
+1) package .json
+
+depe
+devdependencies
+
+load all lib for compilation
+
+2) angular.json
+build instructio
+
+start up html, ts file
+
+polyfill for browser
+
+add the req style sheet at build and test
+
+style.css -> root level styles to be added for appl level
+
+3)tsconfig.app.json
+4) tsconfig.json
+compiler option
+
+base url use for compilation
+
+egma std use
+
+
+5)index.html
+
+tag app-root
+call goes to  main.ts
+cehck whther prod or not
+
+environment
+
+enc.tsenv-prod.ts  prod is set to true if prod
+
+6)platform browser dynmaic -> html 5 featues supported
+
+multi threder web browser
+
+boot strapping modue-> it calls the app amodule
+
+app module-> create metadat
+
+check whether any sub module/ services
+
+7_app.component.ts
+
+app-root selector in 8)index.html app.component.html
+
+9) header.componnet
+
+
+------------------------------------
+
+Emulation 
+referring to style.css
+
+**** app level shadowdom level*****
+encapsulate:viewEncapsulation.shadowdom
+shadowdom-> app.compontn.css
+
+**** component level*****
+encapsulate: viewEncapsulaiton.none
+cehck in the loacl compontn
+in header.component.css
+
+****Root level**
+without encapsulate
+style.css
+
+------------------------------------------
+
+ts-> js
+
+
+import {HttpClientModule} from '@angular/common/http'
+support get post calls
+
+----------------------------------------
+angular material usae i sneeded tehn install the cdk
+
+npm install @angular/cdk@8.2.3
+
+reactive -> for complex usage registraions, unit testing is better done here
+
+funvtional oriented
+
+template-> simple desings login, go to attribuite for tesit
+
+1) create user model
+2) create login component
+ng g c login
+
+---------------------
+
+Observable -> 
+
+
+data passing
+
+static
+dynamic
+
+
+
+/*home html-> router outlet
+
+
+*/
+
+sender component->
+
+init, ondestroy
+
+Hooks
+
+1) Lifecyle -> onchanges
+
+2) Observable. subscription lead to memory leaks and subscription
+handling -> 
+3)  
+
+of(data) -> any type to observable data
+

@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=AaNZBrP26LQ
+
 https://github.com/eswaribala/rps_angular_chn_2020.git
 
 https://www.primefaces.org/primeng/#/setup
@@ -172,6 +174,169 @@ content mor of dynamci /
 --------------------
 
 
+netlify
+
+Extnesion in visual studio
+
+angular language services
+
+-------------------------------
+Service worker
+-> 
+
+==================================
+
+
+modify the config and manifest file to plan push notifications
+
+--------------------------------------------------------------
+
+application -> progresive web application
+->
+
+-> 
+
+-----------------------------------
+
+Location strategy
+
+routing happening
+
+what happeend to the caching files
+
+--------------------------------
+
+
+ng build --prod --aot
+
+----------------------------
+
+ng build --prod
+
+------------------------------
+
+
+using netlify we can create account and host our application
+
+
+Creating workspace
+===================================================================
+
+node modules created in workspace level not in application level
+
+Structure is changing
+
+
+how two project in same worksace share the objects in library
+
+--------------------------------------
+
+non angular project usage in angular projects
+
+@angular elments
+
+----------------------------------
+presentation component -> convert to -> custom elments -> share thorught publishing
+1) step angular elements library
+npn install @angular/elements
+-----------------------------
+pop up window appear when click on itel
+loaded as entry component
+customer element also entry component
+footer component to be custom element
+-------------------------------------------
+package.json
+buuild: elements
+create elements-build.js
+---------------------------------------------
+after creating build elements
+got ot command line and execute
+npm un build:elements
+-------------------------------------------------
+npm install fx-extra
+npm install fs-extra concat
+-> 
+---------------------------------
+create html page  in test folder
+add elements folder
+
+refer the elements in html page
+--------------------------------------
+
+
+migration from angular js to angular
+
+angular downgraded and used in angular js
+angular js is using the upgraed non angular component
+
+
+---------------------------------------------------------
+
+profiling can be creatted to enable the debuggin
+slide no : 212
+
+--------------------------------
 
 
 
+Octa server
+-> 
+
+-------------------------------------
+
+
+angular oauth2-oidc module-
+
+refere  boafeb2020
+
+-----------------------------
+
+Junit
+
+each test case is a spec
+app.component.spc.ts
+
+---------------------------------
+
+
+Jasmine
+
+Matchers
+
+two framework
+
+Chai Mocha
+
+Sinam
+
+
+--------------------
+code coverage
+
+Ng test --code-coverage
+
+karma.config.js
+
+
+zest enzyme
+
+
+https://airbnb.io/enzyme/docs/guides/jest.html
+
+------------------------------------------------
+
+protacter testing test ui -> did by testers
+
+
+or nightatch
+
+----------------------------------------------------
+
+cicd -> circleCI
+
+same like jenkins file
+
+mail ID: parameshwari.bala@gmail.com
+
+
+---------------------------------------------
